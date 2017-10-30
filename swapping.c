@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c;
+int a,b,d;
 printf("Enter Two no's:");
 scanf("%d%d",&a,&b);
-c=a;
+d=a;
 a=b;
-b=c;
+b=d;
 printf("The two no's after swapping are:%d%d",a,b);
 }
